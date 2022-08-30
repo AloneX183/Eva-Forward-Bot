@@ -17,12 +17,12 @@ INDEX_FILES = {}
 async def start(bot, message):
     if len(message.command) != 2:
         buttons = [[
-            InlineKeyboardButton('⚡️ Updates ⚡️', url='https://t.me/mkn_bots_updates'),
-            InlineKeyboardButton('🔰 Movie Channel 🔰', url='https://t.me/KCFilmss')
+            InlineKeyboardButton('⚡️ Updates ⚡️', url='https://t.me/AloneX_Bots'),
+            InlineKeyboardButton('🔰 Movie Channel 🔰', url='https://t.me/TamilMoviesGuys')
             ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await message.reply_text(
-            text="""Hello I am a Auto Forward Bot devoloped by @kcfilmss & @mr_MKN I can forward files from a Public/Private Channel to a Public/Private Group/Channel.\n\njust send /index to see the magic""",
+            text="""Hello I am a Auto Forward Bot devoloped by @AloneXTG I can forward files from a Public/Private Channel to a Public/Private Group/Channel.\n\njust send /index to see the magic""",
             reply_markup=reply_markup,
             parse_mode='html'
         )
@@ -30,12 +30,12 @@ async def start(bot, message):
 
     if len(message.command) == 2 and message.command[1] in ["subscribe", "error", "okay", "help"]:
         buttons = [[
-            InlineKeyboardButton('⚡️ Updates ⚡️', url='https://t.me/mkn_bots_updates'),
-            InlineKeyboardButton('🔰 Movie Channel 🔰', url='https://t.me/KCFilmss')
+            InlineKeyboardButton('⚡️ Updates ⚡️', url='https://t.me/AloneX_Bots'),
+            InlineKeyboardButton('🔰 Movie Channel 🔰', url='https://t.me/TamilMoviesGuys')
             ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await message.reply_text(            
-            text="""Hello I am a Auto Forward Bot devoloped by @kcfilmss & @mr_MKN I can forward files from a Public/Private Channel to a Public/Private Group/Channel.\n\njust send /index to see the magic """,
+            text="""Hello I am a Auto Forward Bot devoloped by @AloneXTG I can forward files from a Public/Private Channel to a Public/Private Group/Channel.\n\njust send /index to see the magic """,
             reply_markup=reply_markup,
             parse_mode='html'
         )
