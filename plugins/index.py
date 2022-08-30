@@ -24,7 +24,7 @@ async def gen_link_batch(bot, message):
         return await message.reply("Use correct format.\nExample <code>/index {from channel first message link} {form channel last message link}")
     links = message.text.strip().split(" ")
     if len(links) != 3:
-        return await message.reply("Use correct format.\nExample <code>/index https://t.me/kcfilmss/10 https://t.me/kcfilmss/20</code>.")
+        return await message.reply("Use correct format.\nExample <code>/index https://t.me/TMG_LinkZz/10 https://t.me/TMG_LinkZz/20</code>.")
     cmd, first, last = links
     regex = re.compile("(https://)?(t\.me/|telegram\.me/|telegram\.dog/)(c/)?(\d+|[a-zA-Z_0-9]+)/(\d+)$")
     match = regex.match(first)
